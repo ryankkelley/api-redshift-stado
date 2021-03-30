@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "service-stado-api"
+version = "0.1.0"
+description = "data access to redshift using redshift api"
+authors = ["ryankkelley <ryankkelley@yahoo.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+boto3 = "^1.17.36"
+flask = "^1.1.2"
+fastapi = "^0.63.0"
+pydantic = "^1.8.1"
+aiohttp = "^3.7.4"
+uvicorn = "^0.13.4"
+
+[tool.poetry.dev-dependencies]
+poethepoet = "^0.10.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

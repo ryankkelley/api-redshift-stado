@@ -1,0 +1,9 @@
+.circleci/
+.kube/
+logs
+*.log
+coverage
+.nyc_output
+.env
+*.sqlite
+.venv
